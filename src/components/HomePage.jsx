@@ -1,11 +1,17 @@
 import React from "react";
 import './HomePage.css';
-import PageHeader from "./PageHeader";
+import NavBar from "./NavBar";
+import PageCarousel from "./PageCarousel";
+import AboutFoody from "./AboutFoody";
+import Features from "./Features";
 
 function HomePage(){
     return(
         <>
-        <PageHeader/>
+        <NavBar/>
+        <PageCarousel/>
+        <AboutFoody/>
+        <Features/>
         </>
     )
 }
